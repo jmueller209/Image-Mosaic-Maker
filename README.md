@@ -22,11 +22,11 @@ Now you can install the CLI-tool:
 
 Install CPU-only version:
 ```bash
-pipx install git+https://github.com/jmueller209/Image-Mosaic-Maker.git#egg=image_mosaic_maker&subdirectory=src[cpu]
+pipx install "image_mosaic_maker[cpu] @ git+https://github.com/jmueller209/Image-Mosaic-Maker.git#subdirectory=src"
 ```
 Install version with CUDA support:
 ```bash
-pipx install git+https://github.com/jmueller209/Image-Mosaic-Maker.git#egg=image_mosaic_maker&subdirectory=src[cuda]
+pipx install "image_mosaic_maker[cuda] @ git+https://github.com/jmueller209/Image-Mosaic-Maker.git#subdirectory=src"
 ```
 
 ---
