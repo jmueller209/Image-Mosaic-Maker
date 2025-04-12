@@ -22,16 +22,17 @@ setup(
         "ultralytics>=8.0.0",      # For YOLO
     ],
     extras_require={
-        'cuda': [
-            'torch==1.12.1+cu118',  # CUDA version
-            'torchvision==0.13.1+cu118',
-            'torchaudio==0.12.1+cu118',
-        ],
-        'cpu': [
-            'torch==1.12.1+cpu',  # CPU-only version
-            'torchvision==0.13.1+cpu',
-            'torchaudio==0.12.1+cpu',
-        ],
+            'cuda': [
+                'torch>=2.0.0',
+                'torchvision>=0.15.0',
+                'torchaudio>=2.0.0',
+            ],
+            'cpu': [
+                'torch>=2.0.0', 
+                'torchvision>=0.15.0',
+                'torchaudio>=2.0.0',
+            ],
+        },
     },
 
     description="A tool for creating photo mosaics from collections of images.",
