@@ -21,8 +21,20 @@ setup(
         "tqdm>=4.0.0",             # For progress bars
         "ultralytics>=8.0.0",      # For YOLO
     ],
+    extras_require={
+        'gpu': [
+            'torch==1.12.1+cu118',  # CUDA version
+            'torchvision==0.13.1+cu118',
+            'torchaudio==0.12.1+cu118',
+        ],
+        'cpu': [
+            'torch==1.12.1+cpu',  # CPU-only version
+            'torchvision==0.13.1+cpu',
+            'torchaudio==0.12.1+cpu',
+        ],
+    },
 
-    description="A tool for creating photomosaics from collections of images.",
+    description="A tool for creating photo mosaics from collections of images.",
     author="Jonas Mueller",
     author_email="jonas.mueller.wpk@gmail.com",
     url="https://github.com/jmueller209/Image-Mosaic-Maker",
