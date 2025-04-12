@@ -14,8 +14,14 @@ Welcome to the **Image Mosaic Toolkit**—a command-line tool that simplifies th
 ---
 
 ## 🛠️ Installation
-
-Refer to the [Installation Guide](/src/INSTALLATION.md)
+Install CPU-only version:
+```bash
+pipx install git+https://github.com/jmueller209/Image-Mosaic-Maker.git#egg=image_mosaic_maker&subdirectory=src[cpu]
+```
+Install version with CUDA support:
+```bash
+pipx install git+https://github.com/jmueller209/Image-Mosaic-Maker.git#egg=image_mosaic_maker&subdirectory=src[cuda]
+```
 
 ---
 
