@@ -14,6 +14,12 @@ Welcome to the **Image Mosaic Toolkit**—a command-line tool that simplifies th
 ---
 
 ## 🛠️ Installation
+Make sure `python` and `pipx` are installed on your system. You can install `pipx` by running
+```bash
+pip install pipx
+```
+Now you can install the CLI-tool:
+
 Install CPU-only version:
 ```bash
 pipx install git+https://github.com/jmueller209/Image-Mosaic-Maker.git#egg=image_mosaic_maker&subdirectory=src[cpu]
