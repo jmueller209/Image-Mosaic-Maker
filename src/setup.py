@@ -22,7 +22,7 @@ setup(
         "ultralytics>=8.0.0",      # For YOLO
     ],
     extras_require={
-        'gpu': [
+        'cuda': [
             'torch==1.12.1+cu118',  # CUDA version
             'torchvision==0.13.1+cu118',
             'torchaudio==0.12.1+cu118',
