@@ -29,6 +29,10 @@ Install version with CUDA support:
 pipx install --verbose "image_mosaic_maker[cuda] @ git+https://github.com/jmueller209/Image-Mosaic-Maker.git#subdirectory=src" --pip-args="--extra-index-url https://download.pytorch.org/whl/cu118"
 ```
 
+You might need to run the following command to make the tool globally available:
+```bash
+pipx ensurepath
+```
 ---
 
 ## 🎯 Command Usage
