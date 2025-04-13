@@ -36,7 +36,7 @@ pipx ensurepath
 ---
 
 **_Important Notes:_**
-Unfortunately, `pipx` (the module uses for installing this CLI tool) will not show any progress bars during installation. Since some of the dendencies are quite large (1-2 GB depending on wether you install the CPU or GPU version) the installation process might take a while. Therefore, be patient and do not panic when you do not see command line output for some time during the installation.
+Unfortunately, `pipx` (the module used for installing this CLI tool) will not show any progress bars during installation. Since some of the dendencies are quite large (1-2 GB depending on wether you install the CPU or GPU version) the installation process might take a while. Therefore, be patient and do not panic when you do not see command line output for some time during the installation.
 
 ## 🎯 Command Usage
 
