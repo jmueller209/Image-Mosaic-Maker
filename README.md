@@ -10,7 +10,7 @@ Welcome to the **Image Mosaic Toolkit**—a command-line tool that simplifies th
 - **Face Recognition:** Smart cropping using face detection with YOLO model.
 - **Customizable Mosaic Generation:** Adjust density, color matching, and dimensions.
 
-**_Important Notes:_**
+**_Important Note:_**
 I have not optimized for memory efficiency yet. in order to create decently looking mosaics, 16GB of available RAM is the bare minimum. For larger mosaics 32GB is recommended.
 
 ---
@@ -37,7 +37,7 @@ pipx ensurepath
 ```
 ---
 
-**_Important Notes:_**
+**_Important Note:_**
 Unfortunately, `pipx` (the module used for installing this CLI tool) will not show any progress bars during installation. Since some of the dendencies are quite large (1-2 GB depending on wether you install the CPU or GPU version) the installation process might take a while. Therefore, be patient and do not panic when you do not see command line output for some time during the installation.
 
 ## 🎯 Command Usage
@@ -70,7 +70,7 @@ The following options are only relevant when using `smart_crop`:
 - `--device`: Compute device (`cuda` or `cpu`; default: `cpu`).
 - `--face_padding_ratio`: Padding around detected faces (default: `1.1`).
 
-**_Important Notes:_**
+**_Important Note:_**
 When using `smart_crop` with CUDA, you should set `num_threads` to approximately half of your CPU cores for better performance.
 
 **Example:**
