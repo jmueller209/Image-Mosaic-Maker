@@ -22,11 +22,11 @@ Now you can install the CLI-tool:
 
 Install CPU-only version:
 ```bash
-pipx install --verbose "image_mosaic_maker[cpu] @ git+https://github.com/jmueller209/Image-Mosaic-Maker.git#subdirectory=src" --pip-args="--progress-bar on --extra-index-url https://download.pytorch.org/whl/cpu"
+pipx install --verbose "image_mosaic_maker[cpu] @ git+https://github.com/jmueller209/Image-Mosaic-Maker.git#subdirectory=src" --pip-args="--extra-index-url https://download.pytorch.org/whl/cpu"
 ```
 Install version with CUDA support:
 ```bash
-pipx install --verbose "image_mosaic_maker[cuda] @ git+https://github.com/jmueller209/Image-Mosaic-Maker.git#subdirectory=src" --pip-args="--progress-bar on --extra-index-url https://download.pytorch.org/whl/cu118"
+pipx install --verbose "image_mosaic_maker[cuda] @ git+https://github.com/jmueller209/Image-Mosaic-Maker.git#subdirectory=src" --pip-args="--extra-index-url https://download.pytorch.org/whl/cu118"
 ```
 
 You might need to run the following command to make the tool globally available:
