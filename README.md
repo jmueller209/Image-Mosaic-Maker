@@ -111,7 +111,7 @@ mosaic create_example [options]
 
 **Options:**
 
-- `--num_images`: Number of random images to download and use (default: `5`).
+- `--num_images`: Number of random images to download and use (default: `70`).
 - `--download_type`: Specifies download behavior (default: `fill`):
   - `fill`: Adds images to existing ones to reach target number.
   - `new`: Clears existing images and downloads new ones.
