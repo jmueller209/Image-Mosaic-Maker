@@ -6,10 +6,12 @@ Welcome to the **Image Mosaic Toolkit**—a command-line tool that simplifies th
 
 ## 🚀 Features
 
-- **Efficient Image Processing:** Quickly prepare images for mosaic creation.
 - **Multiple Cropping Options:** Choose from smart crop, center crop, aspect ratio adjustments, and stretching.
 - **Face Recognition:** Smart cropping using face detection with YOLO model.
 - **Customizable Mosaic Generation:** Adjust density, color matching, and dimensions.
+
+**_Important Notes:_**
+I have not optimized for memory efficiency yet. in order to create decently looking mosaics, 16GB of available RAM is the bare minimum. For larger mosaics 32GB is recommended.
 
 ---
 
