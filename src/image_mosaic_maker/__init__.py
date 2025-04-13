@@ -116,7 +116,7 @@ def main():
     example_parser.add_argument(
         "--num_images",
         type=int,
-        default=5,
+        default=70,
         help="Combined with the --download argument, this specifies how many random images will be used for the mosaic creation")
     
     example_parser.add_argument(
